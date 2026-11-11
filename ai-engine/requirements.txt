@@ -1,0 +1,30 @@
+# Web Framework
+fastapi==0.115.8
+uvicorn==0.34.0
+
+# Computer Vision & ML
+mediapipe==0.10.21
+numpy<2.0.0
+pandas==2.2.3
+opencv-python==4.11.0.86
+scikit-learn==1.6.1
+
+# Deep Learning
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+transformers>=5.0.0
+
+# Data Validation & Utils
+pydantic==2.10.6
+python-multipart>=0.0.27
+matplotlib==3.10.1
+
+# Communication
+websockets==14.2
+
+# Security
+python-jose[cryptography]==3.3.0
+bcrypt==4.2.1
+python-dotenv>=1.2.2
+httpx==0.28.1

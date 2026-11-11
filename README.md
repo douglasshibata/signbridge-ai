@@ -73,4 +73,3 @@ Real-time Gesture-to-Speech translation platform using computer vision and multi
 2. Run the server/script: `uvicorn main:app --reload` or `python main.py`.
 
 ---
-# signbridge-ai

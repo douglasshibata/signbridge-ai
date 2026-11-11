@@ -1,0 +1,66 @@
+# ===== Secrets & Environment =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# ===== Java / Maven =====
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===== AI/ML Models =====
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.pickle
+*.safetensors
+models/*.bin
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Docker =====
+docker-compose.override.yml
+
+# ===== OWASP Reports =====
+dependency-check-report.*
+owasp-reports/
+
+# ===== Node / Angular =====
+node_modules/
+dist/
+.angular/
+.npm/
+npm-debug.log*
+yarn-error.log*
